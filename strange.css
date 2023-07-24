@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 194px;
+    margin: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+
+.nav-list{
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 16px 12px;
+}
+
+.nav-list li:hover{
+    list-style: none;
+    padding: 16px 12px;
+    background: red;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* .nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+} */
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+/* #search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+} */
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://gumlet.assettype.com/freepressjournal/2021-04/26450b03-176f-46ec-b0f3-840f59801ed4/freepressjournal_2020_08_265d0fb6_f351_4f60_9d60_f1842e57d3e2_IIT_Indore.jpg?format=webp&w=800&dpr=1.0')no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 20vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90%;
+    margin: auto;
+        height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 25%; 
+    border: 4px solid white;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 41px;  
+}
+
+.text-big2{
+    font-size: 21px;
+    color: red;
+}
+
+.text-small{  
+    font-size: 18px;
+}  
+
+.text-small2{
+    font-size: 18px;
+    color: yellow;
+}
+
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    background-color: white;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.info{
+    border-top: 1px solid #D7E0E7;;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 0;
+}
+
+.info-name{
+    font-size: 31px;
+}
+.info-details{
+    font-size: 18px;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: white;
+   
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.baka{
+    display : none;
+}
+.kaka{
+    display : none;
+}
+.navbar ul li:hover .baka{
+    border: solid 3px white;
+    display : block;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -15px;
+    background: blue;
+}
+.navbar ul li .baka ul li:hover .kaka{
+    border: solid 3px white;
+    display : inline-block;
+    position: absolute;
+    left:100%;
+    margin-top: 1px;
+    background: blue;
+}
+body{
+    background-color: antiquewhite;
+}
